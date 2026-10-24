@@ -1,0 +1,1 @@
+<?php require __DIR__.'/../src/App.php'; $_SESSION=[]; session_destroy(); header('Location: /login.php'); exit; ?>
